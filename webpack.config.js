@@ -5,6 +5,7 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var PurifyCSSPlugin = require('purifycss-webpack');
 var CleanWebpackPlugin = require('clean-webpack-plugin');
 var inProduction = (process.env.NODE_ENV === 'production');
+var BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 
 module.exports = {
     entry: {
@@ -64,6 +65,18 @@ module.exports = {
         */
         new webpack.LoaderOptionsPlugin({
             minimize: inProduction
+        }),
+        new BrowserSyncPlugin({
+            host: 'localhost',
+            port: 3000,
+            proxy: 'http://bulmascores.local/',
+            files: [{
+                match: [
+                    '**/*.php',
+                    'public/dist/**/*.css',
+                    'public/dist/**/*.js'
+                ]
+            }]
         })
     ]
 };

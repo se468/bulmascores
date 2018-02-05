@@ -1,1 +1,3 @@
-console.log("You can add your custom javascript here");
+var Bulmascores = require('./bulmascores/theme');
+
+let demo = new Bulmascores();

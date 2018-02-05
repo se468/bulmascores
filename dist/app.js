@@ -73,15 +73,35 @@ module.exports = __webpack_require__(2);
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-console.log("You can add your custom javascript here");
+var Bulmascores = __webpack_require__(9);
+
+let demo = new Bulmascores();
 
 /***/ }),
 /* 2 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 3 */,
+/* 4 */,
+/* 5 */,
+/* 6 */,
+/* 7 */,
+/* 8 */,
+/* 9 */
+/***/ (function(module, exports) {
+
+class Bulmascores {
+    constructor() {
+        console.log("Bulmascores! ES6 and Babel ready to go!");
+    }
+}
+
+module.exports = Bulmascores;
 
 /***/ })
 /******/ ]);
