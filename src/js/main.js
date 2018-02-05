@@ -1,1 +1,1 @@
-console.log("main js loaded");
+console.log("You can add your custom javascript here");
