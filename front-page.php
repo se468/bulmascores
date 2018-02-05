@@ -37,7 +37,17 @@ get_header(); ?>
                     Not sure where to start?
                 </div>
                 <div class="message-body">
-                    Check out our <a href="https://github.com/se468/Bulmascores">Getting Started Guide</a>.
+                    <div class="mb-1">
+                        Check out our <a href="https://github.com/se468/Bulmascores">Getting Started Guide</a>.
+                    </div>
+                    
+
+                    <div>
+                        <a href="" class="button is-primary">Download Theme (.zip)</a>
+
+                        <a href="" class="button is-info">Download Child Theme (.zip)</a>
+                    </div>
+                    
                 </div>
             </article>
 

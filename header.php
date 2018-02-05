@@ -18,9 +18,13 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri();?>/dist/app.css">
+	
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 	<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri();?>/dist/vendor.js"></script>
 	<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri();?>/dist/app.js"></script>
+
+
 	<?php wp_head(); ?>
 </head>
 
@@ -34,7 +38,7 @@
 			<nav class="navbar is-info">
 				<div class="container">
 					<div class="navbar-brand">
-						<a class="navbar-item" href="https://bulma.io">
+						<a class="navbar-item" href="/">
 
 							<img src="https://bulma.io/images/bulma-logo-white.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
 
@@ -48,19 +52,16 @@
 
 					<div id="navMenuColorinfo-example" class="navbar-menu">
 						<div class="navbar-start">
-							<a class="navbar-item" href="https://bulma.io/">
+							<a class="navbar-item" href="/">
 								Home
 							</a>
 							<div class="navbar-item has-dropdown is-hoverable">
-								<a class="navbar-link" href="/documentation/overview/start/">
-									Docs
+								<a class="navbar-link" href="/blog">
+									Blog
 								</a>
 								<div class="navbar-dropdown">
-									<a class="navbar-item" href="/documentation/overview/start/">
-										Overview
-									</a>
-									<a class="navbar-item" href="/documentation/overview/start/">
-										Overview
+									<a class="navbar-item" href="/hello-world/">
+										Hello World
 									</a>
 								</div>
 							</div>
@@ -68,6 +69,7 @@
 
 						<div class="navbar-end">
 							<a class="navbar-item" href="https://github.com/se468/Bulmascores">
+								<i class="fab fa-github"></i> &nbsp;
 								Github
 							</a>
 							<a class="navbar-item" href="https://github.com/se468/Bulmascores">
