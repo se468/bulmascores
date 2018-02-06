@@ -27,4 +27,4 @@ Getting Started
 
 You are all set!
 
-![alt text](https://github.com/se468/images/made-with-bulma.png "Made with Bulma")
+![alt text](https://github.com/se468/Bulmascores/blob/master/images/made-with-bulma.png "Made with Bulma")
