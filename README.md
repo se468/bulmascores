@@ -26,3 +26,5 @@ Getting Started
 * Go to your theme directory, in terminal, run npm install to install all dependencies.
 
 You are all set!
+
+![alt text](https://github.com/se468/images/made-with-bulma.png "Made with Bulma")
