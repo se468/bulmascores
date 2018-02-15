@@ -1,7 +1,7 @@
 Bulmascores
 ===
 
-Hello, I am Bulmascores. A starter theme for Wordpress that uses Bulma css library (https://bulma.io/). 
+Hello, I am Bulmascores. A starter theme for Wordpress that uses [Bulma](https://bulma.io/). 
 
 Do you want to use Webpack + Sass + ES6 and all the latest good that these technologies have to offer? 
 
@@ -9,7 +9,7 @@ You can download take the theme, and run npm install, and you are all set! For d
 
 Bulmascores is also integrated with Timber (Optional) templating engine, so you don’t have to write the ugly Wordpress loops that makes your code messy. 
 
-Inspired by Underscores (https://underscores.me/), and Understrap (https://understrap.com/), Bulmascores tries to reduce the project set up time for your next Wordpress website. 
+Inspired by [Underscores](https://underscores.me/), and [Understrap](https://understrap.com/), Bulmascores tries to reduce the project set up time for your next Wordpress website. 
 
 Focus on your website, instead of spending time to set up your project. 
 
@@ -25,6 +25,22 @@ Getting Started
 * Activate the theme in your wordpress backend.
 * Go to your theme directory, in terminal, run npm install to install all dependencies.
 
+Setup Webpack:
+
+1. Install the node dependencies:
+```sh
+npm install
+```
+2. Try to compile the sass and js in the src directory by typing 
+```sh
+npm run dev
+```
+You should see the compiled sass and js files in the dist directory.
+3. Try to run with browsersync:
+```sh
+npm run watch
+```
+
 You are all set!
 
-![alt text](https://github.com/se468/Bulmascores/blob/master/images/made-with-bulma.png "Made with Bulma")
+![alt text](https://github.com/se468/Bulmascores/blob/master/images/made-with-bulma.png "Made with Bulma")read
