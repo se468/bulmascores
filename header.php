@@ -50,7 +50,20 @@
 						</div>
 					</div>
 
-					<div id="navMenuColorinfo-example" class="navbar-menu">
+					<div class="navbar-menu">
+						<?php 
+						wp_nav_menu(
+							array(
+								'theme_location'  => 'primary',
+								'menu' 			  => 'Menu 1',
+								'walker'          => new Bulmascores_Nav_Walker(),
+								'container' => false,
+								'items_wrap'      => '<div class="navbar-start">%3$s</div>',
+							)
+						);
+						?>
+						
+						<!-- 
 						<div class="navbar-start">
 							<a class="navbar-item" href="/">
 								Home
@@ -66,6 +79,7 @@
 								</div>
 							</div>
 						</div>
+						-->
 
 						<div class="navbar-end">
 							<a class="navbar-item" href="https://github.com/se468/Bulmascores">

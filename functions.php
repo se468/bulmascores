@@ -156,3 +156,5 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+/* Load Bulmascores functions */
+require get_template_directory() .'/functions/bulmascores-nav-walker.php';
