@@ -1,4 +1,4 @@
-Bulmascores
+#Bulmascores
 ===
 
 Hello, I am Bulmascores. A starter theme for Wordpress that uses [Bulma](https://bulma.io/). 
@@ -17,8 +17,7 @@ Bulmascores is integrated with Webpack, so you can bring Sass and latest ES6 jav
 
 
 
-Getting Started
----------------
+##Getting Started
 
 5 minutes setup:
 * Download the theme, upload theme to your new Wordpress site. 
@@ -43,4 +42,9 @@ npm run watch
 
 You are all set!
 
-![alt text](https://github.com/se468/Bulmascores/blob/master/images/made-with-bulma.png "Made with Bulma")read
+
+## Entry Files for Sass and JS
+* `src/sass/main.scss` for sass. 
+* `src/js/main.js` for javascript.
+
+![alt text](https://github.com/se468/Bulmascores/blob/master/images/made-with-bulma.png "Made with Bulma")
