@@ -6744,6 +6744,18 @@ label.panel-block {
 .pl-8 {
   padding-left: 8rem !important; }
 
+.mt-auto {
+  margin-top: auto; }
+
+.mr-auto {
+  margin-right: auto; }
+
+.mb-auto {
+  margin-bottom: auto; }
+
+.ml-auto {
+  margin-left: auto; }
+
 /* 
 Add your custom css here 
 */
