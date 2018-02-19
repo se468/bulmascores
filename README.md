@@ -21,6 +21,7 @@ Bulmascores is integrated with Webpack, so you can bring Sass and latest ES6 jav
 5 minutes setup:
 * Download the theme, upload theme to your new Wordpress site. 
 * Activate the theme in your wordpress backend.
+* Go to the theme's directory and rename the directory to `bulmascores`
 * Go to your theme directory, in terminal, run npm install to install all dependencies.
 
 Setup Webpack:
