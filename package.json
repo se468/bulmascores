@@ -37,5 +37,8 @@
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.1",
     "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "bulma" : "^0.6.2"
   }
 }
