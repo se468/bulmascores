@@ -30,6 +30,7 @@ Setup Webpack:
 ```sh
 npm install
 ```
+
 2. Try to compile the sass and js in the src directory by typing 
 ```sh
 npm run dev
@@ -39,7 +40,6 @@ You should see the compiled sass and js files in the dist directory.
 >If you get webpack not found error, install webpack by `npm install webpack`
 
 3. Go to your theme directory, find `webpack.config.js`. Modify BrowserSyncPlugin settings to match your own local host's urls. 
-
 
 4. Try to run with browsersync:
 ```sh
