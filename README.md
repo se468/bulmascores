@@ -19,19 +19,19 @@ Bulmascores is integrated with Webpack, so you can bring Sass and latest ES6 jav
 ## Getting Started
 
 5 minutes setup:
-* Download the theme, upload theme to your new Wordpress site. 
-* Go to the theme's directory and rename the directory to `bulmascores`
+* Download the theme zip file from this repo, rename the zip file to `bulmascores`.
+* Upload theme to your new blank Wordpress install.
 * Activate the Bulmascores at the theme backend.
-* Go to your theme directory, in terminal, run npm install to install all dependencies.
+* If you want to use Webpack, check below.
 
-Setup Webpack:
+## Setup Webpack:
 
-1. Install the node dependencies:
+* Install the node dependencies:
 ```sh
 npm install
 ```
 
-2. Try to compile the sass and js in the src directory by typing 
+* Try to compile the sass and js in the src directory by typing 
 ```sh
 npm run dev
 ```
@@ -39,15 +39,18 @@ You should see the compiled sass and js files in the dist directory.
 
 >If you get webpack not found error, install webpack by `npm install webpack`
 
-3. Go to your theme directory, find `webpack.config.js`. Modify BrowserSyncPlugin settings to match your own local host's urls. 
+* Go to your theme directory, find `webpack.config.js`. Modify BrowserSyncPlugin settings to match your own local host's urls. 
 
-4. Try to run with browsersync:
+* Try to run with browsersync:
 ```sh
 npm run watch
 ```
 
 You are all set!
 
+
+## Child Theme Support
+If you'd like to use a child theme for your development, you can use [this](https://github.com/se468/Bulmascores-child) as a starting point. Simply download as zip, and rename the zip file to `bulmascores-child`, and upload the theme to your Wordpress install.
 
 ## Entry Files for Sass and JS
 * `src/sass/main.scss` for sass. 
