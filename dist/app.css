@@ -3716,20 +3716,20 @@ a.dropdown-item {
   .menu.is-large {
     font-size: 1.5rem; }
 
-.menu-list {
+.menu-list, section.menu ul {
   line-height: 1.25; }
-  .menu-list a {
+  .menu-list a, section.menu ul a {
     border-radius: 2px;
     color: #4a4a4a;
     display: block;
     padding: 0.5em 0.75em; }
-    .menu-list a:hover {
+    .menu-list a:hover, section.menu ul a:hover {
       background-color: whitesmoke;
       color: #363636; }
-    .menu-list a.is-active {
+    .menu-list a.is-active, section.menu ul a.is-active {
       background-color: #3273dc;
       color: #fff; }
-  .menu-list li ul {
+  .menu-list li ul, section.menu ul li ul {
     border-left: 1px solid #dbdbdb;
     margin: 0.75em;
     padding-left: 0.75em; }
@@ -6755,6 +6755,19 @@ label.panel-block {
 
 .ml-auto {
   margin-left: auto; }
+
+.widget {
+  margin-bottom: 20px; }
+
+.widget-title {
+  font-size: 18px;
+  font-weight: bold; }
+
+section.menu {
+  margin-bottom: 20px; }
+  section.menu ul {
+    list-style: none;
+    margin: 0; }
 
 /* 
 Add your custom css here 

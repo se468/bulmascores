@@ -52,3 +52,20 @@ $positions: (
         margin-#{$posValue}: auto;
     }
 }
+
+.widget {
+    margin-bottom: 20px;
+}
+.widget-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section.menu {
+    ul {
+        @extend .menu-list;
+        list-style: none;
+        margin: 0;
+    }
+    margin-bottom: 20px;
+}

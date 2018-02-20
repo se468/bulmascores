@@ -105,10 +105,10 @@ function bulmascores_widgets_init() {
 		'name'          => esc_html__( 'Sidebar', 'bulmascores' ),
 		'id'            => 'sidebar-1',
 		'description'   => esc_html__( 'Add widgets here.', 'bulmascores' ),
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'before_widget' => '<section id="%1$s" class="menu %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<p class="menu-label">',
+        'after_title'   => '</p>',
 	) );
 }
 add_action( 'widgets_init', 'bulmascores_widgets_init' );
