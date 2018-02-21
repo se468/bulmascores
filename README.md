@@ -14,7 +14,7 @@ Focus on your website, instead of spending time to set up your project.
 
 Bulmascores is integrated with Webpack, so you can bring Sass and latest ES6 javascript functionalities to your wordpress project!
 
-
+---
 
 ## Getting Started
 ### Option 1: Theme upload
@@ -28,7 +28,8 @@ Bulmascores is integrated with Webpack, so you can bring Sass and latest ES6 jav
 ### Option 2: Using (All-in-One WP Migration)[https://wordpress.org/plugins/all-in-one-wp-migration/]
 * Download the All-in-One WP Migration file for Bulmascores project (here)[]
 * Create a fresh install of Wordpress, install the All-in-One WP Migration from plugins.
-* Import the file downloaded.
+* Import the file downloaded
+* It should already be set up with everything you need, including the child theme. How easy was that?
 
 > your user name and passwords will be following: 
 > Username: test@tester.com
