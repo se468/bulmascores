@@ -14,8 +14,14 @@ class Bulmascores_Nav_Walker extends Walker_Nav_Menu {
         if( !empty( $item->url ) ) {
             $url = $item->url;
         }
+        $classes     = empty( $item->classes ) ? array() : (array) $item->classes;
 
-        $output .= '<a href="' . $url . '" class="navbar-item">' . $item->title . '</a>';
+        $class_names = '';
+        if ( in_array( 'current-menu-item', $classes ) ) {
+            $class_names .= 'is-active';
+        }
+
+        $output .= '<a href="' . $url . '" class="navbar-item '.$class_names.'">' . $item->title . '</a>';
     }
 
     public function end_el( &$output, $item, $depth = 0, $args = array() ) {
