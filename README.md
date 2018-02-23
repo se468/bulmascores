@@ -19,22 +19,11 @@ Bulmascores is integrated with Webpack, so you can bring Sass and latest ES6 jav
 [Download Child Theme](http://demo-bulmascores.seyongcho.com/wp-content/archives/bulmascores-child.zip)
 
 ## Getting Started
-### Option 1: Theme upload
-5 minutes setup:
+### 5 minutes setup:
 * Download the theme zip file [here](http://demo-bulmascores.seyongcho.com/wp-content/archives/bulmascores.zip)
 * Upload theme to your new blank Wordpress install.
 * Activate the Bulmascores at the theme backend.
 * If you want to use Webpack, check below for more setup options.
-
-### Option 2: Using [All-in-One WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/)
-* Download the All-in-One WP Migration file for Bulmascores project [here](https://www.dropbox.com/s/vc8hyl30mlw15py/bulmascores.local-20180221-111533-188.wpress?dl=0)
-* Create a fresh install of Wordpress, install the All-in-One WP Migration from plugins.
-* Import the file downloaded.
-* It should already be set up with everything you need, including the child theme. How easy was that?
-
-> your user name and passwords will be following: 
-> Username: test@tester.com
-> Password: test123@
 
 After this, you should be set up to load the front-page.php. visit the site and check if front-page.php is loading. You may now go to next step: **setup webpack**.
 
