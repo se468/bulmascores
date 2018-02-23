@@ -43,9 +43,9 @@ get_header(); ?>
                     
 
                     <div>
-                        <a href="" class="button is-primary">Download Theme (.zip)</a>
+                        <a href="http://demo-bulmascores.seyongcho.com/wp-content/archives/bulmascores.zip" class="button is-primary">Download Theme (.zip)</a>
 
-                        <a href="" class="button is-info">Download Child Theme (.zip)</a>
+                        <a href="http://demo-bulmascores.seyongcho.com/wp-content/archives/bulmascores-child.zip" class="button is-info">Download Child Theme (.zip)</a>
                     </div>
                     
                 </div>

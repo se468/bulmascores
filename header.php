@@ -16,14 +16,16 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+
 	
+
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri();?>/dist/app.css">
 	
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 	<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri();?>/dist/vendor.js"></script>
 	<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri();?>/dist/app.js"></script>
-
+	
 
 	<?php wp_head(); ?>
 </head>
