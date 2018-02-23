@@ -65,4 +65,4 @@ If you'd like to use a child theme for your development, you can use [this](http
 * Integrating with Timber templating engine
 * Integrating with VueJS
 
-![alt text](https://github.com/se468/Bulmascores/blob/master/images/made-with-bulma.png "Made with Bulma")
+![alt text](https://bulma.io/images/made-with-bulma.png "Made with Bulma")
