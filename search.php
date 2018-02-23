@@ -9,43 +9,47 @@
 
 get_header(); ?>
 
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main">
-
-		<?php
-		if ( have_posts() ) : ?>
-
-			<header class="page-header">
-				<h1 class="page-title"><?php
-					/* translators: %s: search query. */
-					printf( esc_html__( 'Search Results for: %s', 'bulmascores' ), '<span>' . get_search_query() . '</span>' );
-				?></h1>
-			</header><!-- .page-header -->
+	<div id="primary" class="container mt-2 mb-2">
+		<div class="columns">
+		  	<div class="column is-two-thirds">
 
 			<?php
-			/* Start the Loop */
-			while ( have_posts() ) : the_post();
+			if ( have_posts() ) : ?>
 
-				/**
-				 * Run the loop for the search to output the results.
-				 * If you want to overload this in a child theme then include a file
-				 * called content-search.php and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', 'search' );
+				<header class="page-header">
+					<h1 class="title"><?php
+						/* translators: %s: search query. */
+						printf( esc_html__( 'Search Results for: %s', 'bulmascores' ), '<span>' . get_search_query() . '</span>' );
+					?></h1>
+				</header><!-- .page-header -->
 
-			endwhile;
+				<?php
+				/* Start the Loop */
+				while ( have_posts() ) : the_post();
 
-			the_posts_navigation();
+					/**
+					 * Run the loop for the search to output the results.
+					 * If you want to overload this in a child theme then include a file
+					 * called content-search.php and that will be used instead.
+					 */
+					get_template_part( 'template-parts/content', 'search' );
 
-		else :
+				endwhile;
 
-			get_template_part( 'template-parts/content', 'none' );
+				the_posts_navigation();
 
-		endif; ?>
+			else :
 
-		</main><!-- #main -->
-	</section><!-- #primary -->
+				get_template_part( 'template-parts/content', 'none' );
+
+			endif; ?>
+
+			</div>
+		  	<div class="column">
+		  		<?php get_sidebar();?>
+		  	</div>
+		</div>
+	</div><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();
