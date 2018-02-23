@@ -12,9 +12,11 @@ Focus on your website, instead of spending time to set up your project.
 
 Bulmascores is integrated with Webpack, so you can bring Sass and latest ES6 javascript functionalities to your wordpress project!
 
-[Download Parent Theme] (http://demo-bulmascores.seyongcho.com/wp-content/archives/bulmascores.zip)
+[Check Demo Site](http://demo-bulmascores.seyongcho.com)
 
-[Download Child Theme] (http://demo-bulmascores.seyongcho.com/wp-content/archives/bulmascores-child.zip)
+[Download Parent Theme](http://demo-bulmascores.seyongcho.com/wp-content/archives/bulmascores.zip)
+
+[Download Child Theme](http://demo-bulmascores.seyongcho.com/wp-content/archives/bulmascores-child.zip)
 
 ## Getting Started
 ### Option 1: Theme upload
