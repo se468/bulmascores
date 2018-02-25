@@ -158,3 +158,22 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 /* Load Bulmascores functions */
 require get_template_directory() .'/functions/bulmascores-nav-walker.php';
+
+
+function comment_form_bulmascores_fields ($fields) {
+	$fields["author"] = '<div class="comment-form-author field"><label for="author" class="label">' . __( 'Name', 'domainreference' ) .
+			    ( $req ? '<span class="required">*</span>' : '' ) . '</label>' .
+			    '<input id="author" name="author" type="text" class="input" value="' . esc_attr( $commenter['comment_author'] ) .
+			    '" size="30"' . $aria_req . ' /></div>';
+
+	$fields["email"] = '<div class="comment-form-email field"><label for="email" class="label">' . __( 'Email', 'domainreference' ) .
+			    ( $req ? '<span class="required">*</span>' : '' ) . '</label>' .
+			    '<input id="email" name="email" type="text" class="input" value="' . esc_attr(  $commenter['comment_author_email'] ) .
+			    '" size="30"' . $aria_req . ' /></div>';
+
+	$fields["url"] = '<div class="comment-form-url field"><label for="url" class="label">' . __( 'Website', 'domainreference' ) . '</label>' .
+			    '<input id="url" name="url" type="text" class="input" value="' . esc_attr( $commenter['comment_author_url'] ) .
+			    '" size="30" /></div>';
+	return $fields;
+}
+add_filter('comment_form_default_fields','comment_form_bulmascores_fields');

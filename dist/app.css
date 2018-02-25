@@ -6769,6 +6769,10 @@ section.menu {
     list-style: none;
     margin: 0; }
 
+.entry-footer > span {
+  margin-right: 0.4rem;
+  display: block; }
+
 /* 
 Add your custom css here 
 */

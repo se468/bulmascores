@@ -69,3 +69,10 @@ section.menu {
     }
     margin-bottom: 20px;
 }
+
+.entry-footer {
+    &>span {
+        margin-right: 0.4rem;
+        display: block;
+    }
+}

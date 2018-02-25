@@ -67,7 +67,14 @@ if ( post_password_required() ) {
 	<?php endif; // Check for have_comments(). ?>
 	
 	<div>
-		<?php comment_form();?>
+		<?php 
+		$comments_args = array(
+
+	        'comment_field' => '<div class="comment-form-comment field"><label class="label" for="comment">' . _x( 'Comment', 'noun' ) . '</label><textarea id="comment" name="comment" aria-required="true" class="textarea"></textarea></div>',
+	        'submit_field' => '<button class="button is-link">Post Commment</button>'
+		);
+		comment_form( $comments_args );
+		?>
 	</div>
 
 </div><!-- #comments -->

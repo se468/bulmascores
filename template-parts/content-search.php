@@ -32,5 +32,8 @@
 		<footer class="entry-footer">
 			<?php bulmascores_entry_footer(); ?>
 		</footer><!-- .entry-footer -->
+		
 	</article><!-- #post-<?php the_ID(); ?> -->
+
+	<?php the_post_navigation(); ?>
 </div>
