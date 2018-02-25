@@ -60,7 +60,7 @@ get_header(); ?>
                 <div class="message-body">
                     <ol>
                         <li>
-                            Download Bulmascores <a href="https://github.com/se468/Bulmascores">here</a>. Upload theme to your newly created Wordpress project.
+                            Download Bulmascores. Upload theme to your newly created Wordpress project.
                         </li>
                         <li>
                             Using Terminal, run <code>npm install webpack —save-dev</code> on your current theme directory.
