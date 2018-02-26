@@ -9,14 +9,6 @@ Do you want to use Webpack + Sass + ES6 and all the latest good that these techn
 
 You can download take the theme, and run `npm install`, and you are all set! For directory structures and how to get started guide, go to the documentation (link to documentation page).
 
-Bulmascores is also integrated with customer Bulma_Nav_Walker class, which supports Bulma dropdown navigation bars.
-
-Inspired by [Underscores](https://underscores.me/), and [Understrap](https://understrap.com/), Bulmascores tries to reduce the project set up time for your next Wordpress website. 
-
-Focus on your website, instead of spending time to set up your project. 
-
-Bulmascores is integrated with Webpack, so you can bring Sass and latest ES6 javascript functionalities to your wordpress project!
-
 ## Getting Started
 ### 5 minutes setup:
 * Download the theme zip file [here](http://bulmascores.seyongcho.com/)
@@ -50,8 +42,16 @@ npm run watch
 
 You are all set!
 
+## Features
+### Custom Nav Walker
+Bulmascores is also integrated with customer Bulma_Nav_Walker class, which supports Bulma dropdown navigation bars.
+![](https://seyongcho.com/wp-content/uploads/2018/02/BulmaNavWalker.gif)
 
-## Child Theme Support
+### Webpack, npm, Sass all built in
+Focus on your website, instead of spending time to set up your project. 
+Bulmascores is integrated with Webpack, so you can bring Sass and latest ES6 javascript functionalities to your wordpress project!
+
+### Child Theme Support
 Bulmascores comes with ready-made child theme, which you can just upload to your project. 
 
 
