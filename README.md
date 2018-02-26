@@ -1,8 +1,9 @@
 # Bulmascores
 ## Wordpress starter theme for Bulma integrated with Webpack. 
 
-[Official Website | Download Links](https://github.com/se468/Bulmascores)
-[Demo Site | Download Links](http://demo-bulmascores.seyongcho.com)
+[Official Website | Download Links](http://bulmascores.seyongcho.com/)
+
+[Demo Site](http://demo-bulmascores.seyongcho.com)
 
 Do you want to use Webpack + Sass + ES6 and all the latest good that these technologies have to offer? 
 
@@ -16,7 +17,7 @@ Bulmascores is integrated with Webpack, so you can bring Sass and latest ES6 jav
 
 ## Getting Started
 ### 5 minutes setup:
-* Download the theme zip file [here](http://demo-bulmascores.seyongcho.com)
+* Download the theme zip file [here](http://bulmascores.seyongcho.com/)
 * Upload theme to your new blank Wordpress install.
 * Activate the Bulmascores at the theme backend.
 * If you want to use Webpack, check below for more setup options.
