@@ -1,18 +1,17 @@
 # Bulmascores
+## Wordpress starter theme for Bulma integrated with Webpack. 
 
-Hello, I am Bulmascores. A starter theme for Wordpress that uses [Bulma](https://bulma.io/). 
+[Demo Site | Download Links](http://demo-bulmascores.seyongcho.com)
 
 Do you want to use Webpack + Sass + ES6 and all the latest good that these technologies have to offer? 
 
-You can download take the theme, and run npm install, and you are all set! For directory structures and how to get started guide, go to the documentation (link to documentation page).
+You can download take the theme, and run `npm install`, and you are all set! For directory structures and how to get started guide, go to the documentation (link to documentation page).
 
 Inspired by [Underscores](https://underscores.me/), and [Understrap](https://understrap.com/), Bulmascores tries to reduce the project set up time for your next Wordpress website. 
 
 Focus on your website, instead of spending time to set up your project. 
 
 Bulmascores is integrated with Webpack, so you can bring Sass and latest ES6 javascript functionalities to your wordpress project!
-
-[Check Demo Site, Download Parent/Child themes](http://demo-bulmascores.seyongcho.com)
 
 ## Getting Started
 ### 5 minutes setup:
@@ -49,7 +48,7 @@ You are all set!
 
 
 ## Child Theme Support
-If you'd like to use a child theme for your development, you can use [this](https://github.com/se468/Bulmascores-child) as a starting point. Simply download as zip, and rename the zip file to `bulmascores-child`, and upload the theme to your Wordpress install.
+Bulmascores comes with ready-made child theme, which you can just upload to your project. 
 
 
 ## Entry Files for Sass and JS
@@ -58,7 +57,5 @@ If you'd like to use a child theme for your development, you can use [this](http
 
 ## Future implementation plans
 * Integration with WooCommerce
-* Integrating with Timber templating engine
-* Integrating with VueJS
 
 ![alt text](https://bulma.io/images/made-with-bulma.png "Made with Bulma")
