@@ -65,24 +65,6 @@
 						);
 						?>
 						
-						<!-- 
-						<div class="navbar-start">
-							<a class="navbar-item" href="/">
-								Home
-							</a>
-							<div class="navbar-item has-dropdown is-hoverable">
-								<a class="navbar-link" href="/blog">
-									Blog
-								</a>
-								<div class="navbar-dropdown">
-									<a class="navbar-item" href="/hello-world/">
-										Hello World
-									</a>
-								</div>
-							</div>
-						</div>
-						-->
-
 						<div class="navbar-end">
 							<a class="navbar-item" href="https://github.com/se468/Bulmascores">
 								<i class="fab fa-github"></i> &nbsp;
