@@ -13,6 +13,20 @@
  */
 
 get_header(); ?>
+	
+	<section class="hero is-info is-medium">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Blog
+                </h1>
+                <h2 class="subtitle">
+                	This is the post loop page. This page is rendered from <code>index-page.php</code>
+                </h2>
+            </div>
+        </div>
+    </section>
+
 
 	<div id="primary" class="container mt-2 mb-2">
 		<div class="columns">

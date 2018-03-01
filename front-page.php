@@ -17,7 +17,7 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
     
-    <section class="hero is-primary">
+    <section class="hero is-info is-medium">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title">

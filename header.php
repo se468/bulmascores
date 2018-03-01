@@ -37,7 +37,7 @@
 	<div id="page" class="site">
 		
 		<header id="masthead" class="site-header">
-			<nav class="navbar is-info">
+			<nav class="navbar">
 				<div class="container">
 					<div class="navbar-brand">
 
