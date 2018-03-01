@@ -1,7 +1,6 @@
-![](http://demo-bulmascores.seyongcho.com/wp-content/uploads/2018/03/bulmascores-logo.png)
+![alt text](http://demo-bulmascores.seyongcho.com/wp-content/uploads/2018/03/bulmascores-horizontal.png "Bulmascores")
 
-# Bulmascores
-## Wordpress starter theme for Bulma integrated with Webpack. 
+## Wordpress starter theme. Underscores + Bulma + Webpack.
 
 [Official Website | Download Links](http://bulmascores.seyongcho.com/)
 
