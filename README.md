@@ -1,14 +1,14 @@
 ![alt text](http://demo-bulmascores.seyongcho.com/wp-content/uploads/2018/03/bulmascores-horizontal.png "Bulmascores")
 
+
+
 ## Wordpress starter theme. Underscores + Bulma + Webpack.
 
 [Official Website | Download Links](http://bulmascores.seyongcho.com/)
 
 [Demo Site](http://demo-bulmascores.seyongcho.com)
 
-Do you want to use Webpack + Sass + ES6 and all the latest good that these technologies have to offer? 
-
-You can download take the theme, and run `npm install`, and you are all set! For directory structures and how to get started guide, go to the documentation (link to documentation page).
+You can download take the theme, upload to your wordpress, and run `npm install`.
 
 ## Getting Started
 ### 5 minutes setup:
@@ -20,10 +20,14 @@ You can download take the theme, and run `npm install`, and you are all set! For
 After this, you should be set up to load the front-page.php. visit the site and check if front-page.php is loading. You may now go to next step: **setup webpack**.
 
 ## Setup Webpack:
-
 * Install the node dependencies:
 ```sh
 npm install
+```
+
+* Install webpack if you haven't already. 
+```sh
+npm install webpack
 ```
 
 * Try to compile the sass and js in the src directory by typing 
@@ -32,9 +36,21 @@ npm run dev
 ```
 You should see the compiled sass and js files in the dist directory.
 
->If you get webpack not found error, install webpack by `npm install webpack`
-
 * Go to your theme directory, find `webpack.config.js`. Modify BrowserSyncPlugin settings to match your own local host's urls. 
+```javascript
+new BrowserSyncPlugin({
+    host: 'localhost',
+    port: 3000,
+    proxy: 'http://bulmascores.valet/',
+    files: [{
+        match: [
+            '**/*.php',
+            'public/dist/**/*.css',
+            'public/dist/**/*.js'
+        ]
+    }]
+})
+```
 
 * Try to run with browsersync:
 ```sh
