@@ -17,7 +17,8 @@ get_header(); ?>
 	<div id="primary" class="container mt-2 mb-2">
 		<div class="columns">
 		  	<div class="column is-two-thirds">
-
+			
+			<div class="content">
 			<?php
 			while ( have_posts() ) : the_post();
 
@@ -30,6 +31,7 @@ get_header(); ?>
 
 			endwhile; // End of the loop.
 			?>
+			</div>
 
 		</div>
 		  	<div class="column">

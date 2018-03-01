@@ -17,6 +17,7 @@ get_header(); ?>
 	<div id="primary" class="container mt-2 mb-2">
 		<div class="columns">
 		  	<div class="column is-two-thirds">
+		  		<div class="content">	
 		  		<?php
 				if ( have_posts() ) :
 
@@ -33,6 +34,7 @@ get_header(); ?>
 					get_template_part( 'template-parts/content', 'none' );
 
 				endif; ?>
+				</div>
 		  	</div>
 		  	<div class="column">
 		  		<?php get_sidebar();?>
