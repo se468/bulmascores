@@ -177,3 +177,16 @@ function comment_form_bulmascores_fields ($fields) {
 	return $fields;
 }
 add_filter('comment_form_default_fields','comment_form_bulmascores_fields');
+
+
+add_filter( 'get_custom_logo', 'bulmascores_custom_logo' );
+function bulmascores_custom_logo() {
+    $custom_logo_id = get_theme_mod( 'custom_logo' );
+    $html = sprintf( '<a href="%1$s" class="navbar-item" rel="home" itemprop="url">%2$s</a>',
+            esc_url( '/' ),
+            wp_get_attachment_image( $custom_logo_id, 'full', false, array(
+                'class'    => 'custom-logo',
+            ) )
+        );
+    return $html;   
+} 
