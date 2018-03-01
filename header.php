@@ -35,16 +35,24 @@
 	
 
 	<div id="page" class="site">
-
+		
 		<header id="masthead" class="site-header">
 			<nav class="navbar is-info">
 				<div class="container">
 					<div class="navbar-brand">
-						<a class="navbar-item" href="/">
 
-							<img src="https://bulma.io/images/bulma-logo-white.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
 
-						</a>
+						<!-- Your site title as branding in the menu -->
+						<?php if ( ! has_custom_logo() ) { ?>
+							<a class="navbar-item" href="/">
+								<b>Bulmascores</b>
+							</a>
+						<?php } else { 
+							the_custom_logo();
+						} ?><!-- end custom logo -->
+
+
+						
 						<div class="navbar-burger burger" data-target="navMenuColorinfo-example">
 							<span></span>
 							<span></span>
@@ -64,14 +72,10 @@
 							)
 						);
 						?>
-						
+
 						<div class="navbar-end">
 							<a class="navbar-item" href="https://github.com/se468/Bulmascores">
-								<i class="fab fa-github"></i> &nbsp;
-								Github
-							</a>
-							<a class="navbar-item" href="https://github.com/se468/Bulmascores">
-								Demo
+								<i class="fab fa-github"></i>
 							</a>
 						</div>
 					</div>
@@ -79,5 +83,6 @@
 			</nav>
 			<!-- #bulma-site-navigation -->
 		</header><!-- #masthead -->
+
 
 		<div id="content" class="site-content">

@@ -1,3 +1,5 @@
+![](http://demo-bulmascores.seyongcho.com/wp-content/uploads/2018/03/bulmascores-logo.png)
+
 # Bulmascores
 ## Wordpress starter theme for Bulma integrated with Webpack. 
 
