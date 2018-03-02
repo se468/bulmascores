@@ -2,7 +2,9 @@
 
 
 
-## Wordpress starter theme. Underscores + Bulma + Webpack.
+## Setting up a new project without proper workflow always takes time and it's very tedious. Bulmascores saves you time setting up your new wordpress website.
+
+Bulmascores is a Wordpress starter theme. It aims to combine Underscores + Bulma + Webpack.
 
 [Official Website | Download Links](http://bulmascores.seyongcho.com/)
 
