@@ -1,9 +1,11 @@
 ![alt text](http://demo-bulmascores.seyongcho.com/wp-content/uploads/2018/03/bulmascores-horizontal.png "Bulmascores")
 
 
-## Setting up a new project without proper workflow always takes time and is tedious. Bulmascores saves you time setting up your new wordpress website.
+## Bulmascores makes it easy to set up your wordpress project with new web technologies. 
 
 Bulmascores is a Wordpress starter theme. It aims to combine Underscores + Bulma + Webpack.
+
+Setting up a new project without proper workflow always takes time and is tedious. Bulmascores saves you time setting up your new wordpress website.
 
 [Official Website | Download Links](http://bulmascores.seyongcho.com/)
 
