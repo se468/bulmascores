@@ -12,6 +12,7 @@ get_header(); ?>
 		<div class="columns">
 		  	<div class="column is-two-thirds">
 				<main id="main" class="site-main">
+					
 
 				<?php
 				if ( have_posts() ) : ?>
