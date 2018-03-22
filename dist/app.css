@@ -6763,6 +6763,9 @@ label.panel-block {
   font-size: 18px;
   font-weight: bold; }
 
+li.recentcomments {
+  padding: 0.5em 0.75em; }
+
 section.menu {
   margin-bottom: 20px; }
   section.menu ul {

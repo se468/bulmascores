@@ -61,6 +61,10 @@ $positions: (
     font-weight: bold;
 }
 
+li.recentcomments {
+    padding: 0.5em 0.75em;
+}
+
 section.menu {
     ul {
         @extend .menu-list;
