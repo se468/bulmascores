@@ -69,7 +69,7 @@ module.exports = {
         new BrowserSyncPlugin({
             host: 'localhost',
             port: 3000,
-            proxy: 'http://bulmascores.valet/',
+            proxy: 'http://bulmascores.local',
             files: [{
                 match: [
                     '**/*.php',
